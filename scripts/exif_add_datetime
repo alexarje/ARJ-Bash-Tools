@@ -1,0 +1,2 @@
+#!/bin/sh
+exiftool '-filename<ModifyDate' -d %Y-%m-%d_%H-%M-%S.%%le -r -ext jpg "$@"
